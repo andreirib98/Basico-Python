@@ -1,0 +1,10 @@
+frase = 'Isso é uma String'
+print(len(frase)) #Tamanho da String
+print(frase.count('s')) #Conta quantidade de caracteres
+print(frase.find('uma')) #Mostra em que posição está a palavra selecionada
+print(frase.upper()) #Coloca tudo em caixa alta(lower coloca em minusculo)
+print(frase.strip()) #Tira espaços em branco no começo e no fim da frase
+
+frase.split() #divide a string por palavras
+' '.join(frase) #reune novamente a string e substitui pelo que tiver dentro das aspas
+
